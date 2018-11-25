@@ -20,6 +20,7 @@
 File - Settings - Plugins：搜索vue，安装Vue.js
 + 安装依赖：`npm install`，项目文件中，会多出一个node_modules文件夹
 + 运行项目：`npm run dev`，将会自动在浏览器打开页面，如未正常打开，请访问完整的路径`http:// localhost:8091/views/home/list.html`
++ 端口联系：\static\api.config.js文件中，API_BASE_URL为画图端地址，SERVICE_API_URL为后端地址。可根据需要修改。
 
 ## 目录结构
 ```
@@ -37,30 +38,30 @@ webpack
     |-- index.js                     // 项目一些配置变量
     |-- prod.env.js                  // 生产环境变量
  |---src
- |---assets                          // 资源
-     |---css/common.css  #css
-     |---font/                       // 字体图标
-     |---js/common.js                // 自己定义的全局通用事件
-     |---js/conf.js                  // 项目的配置
-     |---js/Lib.js                   // 暴露接口给组件调用
-     |---js/vueFilter.js             // 注册vue的全局过滤器	
- |---components                      // 组件
-     |---HbHead.vue                  // head组件
-|---views                            // 各个页面模块，模块名可以自定义
-     |---home    #一级目录
-        |---list    #二级目录
-             |---list.html
-             |---list.js
-             |---listApp.vue
-     |---vuxDemo    #一级目录
-        |---button    #二级目录
-             |---button.html
-             |---button.js
-             |---buttonApp.vue	
-        |---calendar    #二级目录
-             |---calendar.html
-             |---calendar.js
-             |---calendarApp.vue		 
+    |---assets                          // 资源
+         |---css/common.css  #css
+         |---font/                       // 字体图标
+         |---js/common.js                // 自己定义的全局通用事件
+         |---js/conf.js                  // 项目的配置
+         |---js/Lib.js                   // 暴露接口给组件调用
+         |---js/vueFilter.js             // 注册vue的全局过滤器	
+    |---components                      // 组件
+         |---HbHead.vue                  // head组件
+    |---views                            // 各个页面模块，模块名可以自定义
+         |---home    #一级目录
+             |---list    #二级目录
+                 |---list.html
+                 |---list.js
+                 |---listApp.vue
+         |---vuxDemo    #一级目录
+             |---button    #二级目录
+                 |---button.html
+                 |---button.js
+                 |---buttonApp.vue	
+             |---calendar    #二级目录
+                 |---calendar.html
+                 |---calendar.js
+                 |---calendarApp.vue		 
 ......
 ````
 

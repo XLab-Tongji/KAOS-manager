@@ -13096,12 +13096,12 @@ process.umask = function() { return 0; };
 /* harmony export (immutable) */ __webpack_exports__["a"] = apiBase;
 /* harmony export (immutable) */ __webpack_exports__["b"] = serviceapi;
 function apiBase() {
-    var API_BASE_URL = 'http://lab205.jios.org:3335/';
+    var API_BASE_URL = 'http://localhost:8880/';
     return API_BASE_URL;
 }
 
 function serviceapi() {
-    var SERVICE_API_URL = 'http://lab205.jios.org:3336/';
+    var SERVICE_API_URL = 'http://localhost:8880/';
     return SERVICE_API_URL;
 }
 
