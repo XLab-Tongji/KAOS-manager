@@ -10,6 +10,7 @@
  
  # 安装项目依赖包
  RUN npm install -g cnpm --registry=https://registry.npm.taobao.org  && \
+     npm install update vue-template-compiler && \
     cnpm install && \
     cnpm install --save vue vue-resource && \
     cnpm rebuild node-sass --force
