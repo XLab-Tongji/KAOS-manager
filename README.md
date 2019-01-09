@@ -9,7 +9,7 @@
 + 安装npm，由于新版的node.js已经集成了npm，所以npm也一并安装好了，可以输入`npm -v`和`node -v`来进行测试是否安装成功。
 + npm升级命令:`npm   install  npm  -g`
 + 使用淘宝定制的cnpm命令行工具代替默认的npm
-         `npm install -g cnpm --registry=https://registry.npm.taobao.org`
+     ​    `npm install -g cnpm --registry=https://registry.npm.taobao.org`
 如果权限不够则用管理员身份运行cmd
 + 安装vue-cli，vue-cli是vue的脚手框架。`npm  install -g vue-cli`
 + 测试是否安装成功：`vue -V`
@@ -22,6 +22,8 @@ File - Settings - Plugins：搜索vue，安装Vue.js
 + 运行项目：`npm run dev`，将会自动在浏览器打开页面，如未正常打开，请访问完整的路径`http:// localhost:8091/views/home/list.html`
 + 端口联系：\static\api.config.js文件中，API_BASE_URL为画图端地址，SERVICE_API_URL为后端地址。可根据需要修改。
 
+## 项目在docker打包方法
+在项目目录下运行`docker build -t kaos-management .`
 ## 目录结构
 ```
 webpack
@@ -63,5 +65,3 @@ webpack
                  |---calendar.js
                  |---calendarApp.vue		 
 ......
-````
-
