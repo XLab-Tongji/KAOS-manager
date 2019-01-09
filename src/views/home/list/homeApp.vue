@@ -11,7 +11,7 @@
                       v-model="selected_proj">
                 <v-tab :title="`${proj.projname}`"  v-for="proj in projects" :key="proj.projname">
                     <div v-for="p in proj.files" class="file-div">
-                        <a class="file-a" :href= "drawurl+'?id='+p.id" :id="p.filename">
+                        <a class="file-a" :href= "drawurl+'?id='+p.id" :id="p.filename" target="_blank">
                             <div class="div-file-icon">
                                 <img src="./assets/file_icon.png"/>
                             </div>
