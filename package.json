@@ -13,7 +13,7 @@
   },
   "dependencies": {
     "accounting": "^0.4.1",
-    "axios": "^0.16.0",
+    "axios": "^0.21.1",
     "babel-helper-vue-jsx-merge-props": "^2.0.3",
     "bootstrap-vue": "^2.0.0-rc.6",
     "fastclick": "^1.0.6",
